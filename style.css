@@ -1,0 +1,107 @@
+:root {
+  --main-yelow: rgb(247, 224, 24);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    var(--main-yelow),
+    rgb(0, 0, 0),
+    var(--main-yelow)
+  );
+  color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 550px;
+  max-height: 800px;
+  padding: 70px 0px;
+  border-radius: 3px;
+  background-color: var(--main-yelow);
+  border-radius: 10px;
+  box-shadow: 0 0 50px #0a0a0a, 0 0 0px #ffffff;
+}
+
+.button-section {
+  display: flex;
+}
+.result {
+  height: 60px;
+  background-color: black;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+.grid-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+  width: 80%;
+  gap: 35px;
+  margin-top: 5px;
+  margin-right: 5px;
+  justify-content: space-around;
+}
+button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 36px;
+  margin: 0;
+  border-radius: 50%;
+}
+button:hover {
+  background-color: gray;
+  transition-duration: 1s;
+  background: rgba(0, 0, 0, 0.3);
+}
+input {
+  width: 80%;
+  border: none;
+  outline: 0;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+#inputBox {
+  font-size: 50px;
+  margin-bottom: 70px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#history {
+  height: 150px;
+  font-size: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.cool-button {
+  background-color: black;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+h1,
+h3 {
+  margin: 0;
+}
+h4 {
+  font-size: 20px;
+  color: #0a0a0a;
+  margin-top: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
