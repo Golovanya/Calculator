@@ -5,4 +5,4 @@ Simple Calculator pet project
 + CSS
 + JS
 
-## [Link projct](https://calculator-alpha-sepia.vercel.app/)
+## [Link project](https://calculator-alpha-sepia.vercel.app/)
