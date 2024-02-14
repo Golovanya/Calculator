@@ -105,3 +105,27 @@ h4 {
   margin-top: 0px;
   font-family: "Courier New", Courier, monospace;
 }
+@media (max-height:950px) {
+  .calculator{
+    max-height: 700px;
+    max-width: 400px;
+  } 
+  #inputBox{
+    margin-bottom: 10px;
+  }
+  .grid-buttons{
+    grid-template-columns: repeat(4, 40px);
+    grid-template-rows: repeat(5, 40px);
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+  #history {
+    height: 70px;
+  }
+  #inputBox {
+    font-size: 40px;
+  }
+  button{
+    font-size: 30px;
+  }
+}
