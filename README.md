@@ -4,3 +4,5 @@ Simple Calculator pet project
 + HTML
 + CSS
 + JS
+
+## [Link projct](https://calculator-alpha-sepia.vercel.app/)
